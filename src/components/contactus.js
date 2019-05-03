@@ -4,6 +4,7 @@ const Contact = (props) => {
     return(
         <>
         <h1>
+            Email : ProsperousHooligans@gmail.com
             
         </h1>
         </>
