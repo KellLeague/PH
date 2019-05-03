@@ -1,0 +1,20 @@
+.headercontainer{
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    font-weight: 20px;
+    border-bottom: 20px;
+    background-color: chartreuse;
+    }
+
+.home{
+    justify-content: right;
+    
+}
+
+.movies{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+}
