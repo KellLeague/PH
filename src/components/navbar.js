@@ -17,7 +17,6 @@ class Navbar extends Component {
           <div className='movies' >
           <Link className='nav-link' to='/aboutUs' >About Us</Link>
           <Link className='nav-link' to='/contactUs' >Contact Us</Link>
-          <Link className='nav-link' to='/movies/:id'></Link>
           </div>
 
           
