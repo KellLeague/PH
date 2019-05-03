@@ -1,6 +1,7 @@
 import React , {Component}  from 'react';
-import {HashRouter} from 'react-router-dom';
+import {HashRouter, Route} from 'react-router-dom';
 import Navbar from './components/navbar';
+import AboutUs from './components/aboutus';
 
 class App extends Component {
   render(){
@@ -8,6 +9,7 @@ class App extends Component {
       <HashRouter>
       <>
       <Navbar/>
+      <Route path='/aboutUs' exact component={AboutUs} />
       </>
     </HashRouter>
     )
