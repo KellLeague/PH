@@ -7,6 +7,7 @@ const Contact = (props) => {
             Email : ProsperousHooligans@gmail.com
             Phone : 123-123-1234
             IG : Prosperous.Hooligans
+            Facebook : ProsperousHooligans
         </h1>
         </>
     )
